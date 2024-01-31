@@ -1,0 +1,21 @@
+.CompanyList {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.CompanyList-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.lead {
+    font-size: 18px;
+    color: #666666;
+}
+
+@media screen and (max-width: 768px) {
+    .CompanyList-list {
+        justify-content: center;
+    }
+}

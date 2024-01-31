@@ -1,0 +1,40 @@
+.CompanyCard-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-name {
+    font-size: 24px;
+    margin: 0;
+    color: #333333;
+}
+
+.description {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #666666;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 15px;
+}

@@ -1,0 +1,64 @@
+.Homepage {
+     background: linear-gradient(to right, #6dd5ed, #2193b0); /* Example gradient: change colors as needed */
+
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.header {
+    font-size: 24px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.welcome-back-msg {
+    font-size: 24px;
+    color: #4e7dfc;
+    margin-top: 20px;
+}
+
+.HomePage-buttons {
+    margin-top: 20px;
+}
+
+.HomePage-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #4e7dfc;
+}
+
+.btn-primary:hover {
+    background-color: #375ea6;
+}

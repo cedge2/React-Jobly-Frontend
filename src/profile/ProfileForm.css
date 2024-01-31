@@ -1,0 +1,65 @@
+.ProfileForm {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.label {
+    color: #333333;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.profile-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4e7dfc;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.profile-btn:hover {
+    background-color: #375ea6;
+}
+
+.alert {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.success {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
